@@ -22,7 +22,6 @@
 
 <br>
 <br>
-### 9.4 tryit.upm.es o tryit.upm.es/admin o tryit.upm.es/api devuelven 502 Bad Gateway o un Unable to conect
 ---
 
 <br>
