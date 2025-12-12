@@ -175,10 +175,6 @@ npm install
 npm run dev
 ```
 
-| |
-|:-:|
-| <img src="md_images/Frontend_start.png" style="max-height: 350px; width: 350px; height: auto;"> |
-
 <p align="center">
   <img src="md_images/Frontend_start.png" style="max-height: 350px; width: 350px; height: auto;">
 </p>
@@ -209,9 +205,10 @@ Al final del ultimo comando vas a tener que intriducir datos para tu superusuari
 
 Con este perfil accederás luego a la pagina de administrador del backend.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/Backend_exec_results.png" style="max-height: 350px; height: auto;">
-</div>
+<p align="center">
+  <img src="md_images/Backend_exec_results.png" style="max-height: 350px; width: 550px; height: auto;">
+</p>
+
 </div>
 
 ## 6. Añade datos del SIU en el panel de administración
@@ -237,9 +234,10 @@ Añade una instancia de Socialaplication con
 - Key: La Secret Key
 
 <br>
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/SIU_settings.png" style="max-height: 350px; height: auto;">
-</div>
+
+<p align="center">
+  <img src="md_images/SIU_settings.png" style="max-height: 350px; width: 550px; height: auto;">
+</p>
 <br>
 En la imagen falta el client id, secret key y key. Estos serán proporcionados por el coordinador web.
 </div>
@@ -264,9 +262,9 @@ Si no existe ninguna edición para el año actual crea una. Para propositos de d
 ```
 
 <br>
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/Edition_settings.png" style="max-height: 350px; height: auto;">
-</div>
+<p align="center">
+  <img src="md_images/Edition_settings.png" style="max-height: 350px; width: 550px; height: auto;">
+</p>
 
 ## 8. Listo
 
@@ -286,13 +284,10 @@ Revisa que el backend no mande un error al frontend cuando le pida información 
 
 Para hacer eso entra en la pestaña de ***📅Horarios*** y mira si hay un error.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/pruebas/pedir_eventos_error.png" style="max-height: 250px; height: auto;">
-  <img src="md_images/pruebas/pedir_eventos_sin_error.png" style="max-height: 250px; height: auto;">
-</div>
-<br>
+| Problema en la configuración| Sin problema en la configuración |
+|:-:|:-:|
+| ![](md_images/pruebas/pedir_eventos_error.png) | ![](md_images/pruebas/pedir_eventos_sin_error.png) |
 
-La primera imagen es lo que sale si hay un problema en la configuración. La segunda si está todo correctamente.
 
 > **DISCLAIMER IMPORTANTE:** Si salta el error prueba realizar la prueba en **NAVEGACIÓN PRIVADA**. A veces se queda guardado en el navegador una mala configuración a pesar de que luego se haya creado la edición para el año actual.
 
@@ -305,11 +300,10 @@ Copia esa dirección y ponla en otra pestaña del buscador. Si sale un error 404
 
 
 Primera imagen: pestaña de red para ver url de petición. Segunda imagen: API root tras pegar la dirección en un buscador. Devuelve 200 OK.
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/pruebas/eventor_error_red.png" style="max-height: 250px; height: auto;">
-  <img src="md_images/pruebas/eventos_api_root_schedule.png" style="max-height: 250px; height: auto;">
-</div>
-<br>
+
+| | |
+|:-:|:-:|
+| ![](md_images/pruebas/eventor_error_red.png) | ![](md_images/pruebas/eventos_api_root_schedule.png) |
 
 >Si salta un error en la pagina pero en la API root devuelve un 200 OK recuerda intentar acceder a la página en **navegación privada!**
 
@@ -325,9 +319,9 @@ Inicia sesión con el SIU. Para esto hay que hacer click en el apartado de *Inic
 
 Esto te redirigirá al SIU de la UPM (la página con la que inicias sesión en Moodle). Pon tus datos e inicia sesión. Tus datos de inicio de sisión **NO** serán guardados en nuestro sistema, así que no hay que preocuparse de eso.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/pruebas/SIU_site.png" style="max-height: 250px; height: auto;">
-</div>
+<p align="center">
+  <img src="md_images/pruebas/SIU_site.png" style="max-height: 350px; width: 550px; height: auto;">
+</p>
 <br>
 
 Después de eso te debería de redirigir a la homepage del tryit. En vez de *Iniciar sesión* el apartado se debería de llamar *Logout* y debería de haber aparecido un pequeño pop up naranja momentaneo si es la primera vez que inicias sesión y todavía no te has sacado entrada. 
@@ -339,9 +333,9 @@ Si no ha ocurrido esto, esta es una lista de errores que puede ocurrir:
 
 Si cuando le das al botón de lógin no te redirigue a la página del SIU, sino que te redirige a una página de error como esta:
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/pruebas/SIU_login_bad_redirect.png" style="max-height: 250px; height: auto;">
-</div>
+<p align="center">
+  <img src="md_images/pruebas/SIU_login_bad_redirect.png" style="max-height: 350px; width: 550px; height: auto;">
+</p>
 <br>
 
 Entonces tienes una mala configuración del SIU. Vete a [La página de administración](https://tryit.upm.es/admin/socialaccount/socialapp/) y revisa que exista el SIU como especificado en el paso [Paso 6.](#6-añade-datos-del-siu-en-el-panel-de-administración "Ir al paso 6"). Si existe el SIU asegurate de que las claves/llaves sean correctas.
