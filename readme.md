@@ -32,12 +32,11 @@
 
 <br>
 
-<!-- ![Bad Cert Image 1](md_images/CERT_Warnings_1.png)
-![Bad Cert Image 2](md_images/CERT_Warnings_2.png) -->
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/CERT_Warnings_1.png" style="max-height: 350px; height: auto;">
-  <img src="md_images/CERT_Warnings_2.png" style="max-height: 350px; height: auto;">
-</div>
+
+|  | |
+|:-:|:-:|
+| ![md_images/CERT_Warnings_1.png](md_images/CERT_Warnings_1.png) | ![md_images/CERT_Warnings_1.png](md_images/CERT_Warnings_1.png) |
+
 
 <br>
 
@@ -131,16 +130,10 @@ Añade la línea ```127.0.0.1 tryit.upm.es``` y guarda.
 
 Imagenes con y sin esta configuración:
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-<img src="md_images/admin_login_with_static_files.png" style="max-height: 250px; height: auto;">
-<img src="md_images/admin_login_without_static_files.png" style="max-height: 250px; height: auto;">
-</div>
-<br>
-<div style="display: flex; justify-content: center; gap: 10px;">
-<img src="md_images/admin_with_static_files.png" style="max-height: 250px; height: auto;">
-<img src="md_images/admin_without_static_files.png" style="max-height: 250px; height: auto;">
-</div>
-<br>
+| | |
+|:-:| :-: |
+| ![admin_login_with_static_files](md_images/admin_login_with_static_files.png) | ![admin_login_without_static_files](md_images/admin_login_without_static_files.png) |
+| ![admin_with_static_files](md_images/admin_with_static_files.png) | ![admin_without_static_files](md_images/admin_without_static_files.png) |
 
 En el *docker-compose.yml*  hay una ruta a ficheros estáticos que puede necesitar edición según dónde hayas descargado el backend:
 
@@ -182,9 +175,13 @@ npm install
 npm run dev
 ```
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="md_images/Frontend_start.png" style="max-height: 350px; height: auto;">
-</div>
+| |
+|:-:|
+| <img src="md_images/Frontend_start.png" style="max-height: 350px; width: 350px; height: auto;"> |
+
+<p align="center">
+  <img src="md_images/Frontend_start.png" style="max-height: 350px; width: 350px; height: auto;">
+</p>
 
 ## 5. Ejecutar el backend
 <div style="margin-left: 1em;">
